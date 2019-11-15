@@ -15,6 +15,7 @@ namespace TestAPP
         public Form1()
         {
             InitializeComponent();
+            label1.Text = "dev change";
         }
 
         private void Button1_Click(object sender, EventArgs e)
