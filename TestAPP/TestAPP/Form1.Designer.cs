@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -60,7 +61,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(179, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(239, 198);
+            this.button2.Size = new System.Drawing.Size(523, 198);
             this.button2.TabIndex = 2;
             this.button2.Text = "Fix button";
             this.button2.UseVisualStyleBackColor = true;
@@ -91,11 +92,9 @@
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "label4";
-             
-             // 
+            // 
             // button3
             // 
-
             this.button3.Location = new System.Drawing.Point(23, 68);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(138, 25);
@@ -103,11 +102,21 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(176, 213);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(92, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "label1 from master";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 282);
+            this.ClientSize = new System.Drawing.Size(714, 282);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -133,6 +142,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label5;
     }
 }
 
