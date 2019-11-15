@@ -27,5 +27,10 @@ namespace TestAPP
             label3.Text = "changes from master"; //test
             label1.Text = "master changes";
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("call from master main  window");
+        }
     }
 }
