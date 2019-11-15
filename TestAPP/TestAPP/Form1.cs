@@ -33,5 +33,11 @@ namespace TestAPP
         {
             MessageBox.Show("call from master main  window");
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.ShowDialog();
+        }
     }
 }
