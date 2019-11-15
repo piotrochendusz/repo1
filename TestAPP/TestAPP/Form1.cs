@@ -16,6 +16,7 @@ namespace TestAPP
         {
             InitializeComponent();
             label1.Text = "dev change";
+            label2.Text = "master  changes";
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -23,6 +24,7 @@ namespace TestAPP
             MessageBox.Show("initCom");
             label2.Text = "initComEDITED WITH AMEND 1 2";
             label3.Text = "changes from master"; //test
+            label1.Text = "master changes";
         }
     }
 }
