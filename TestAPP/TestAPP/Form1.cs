@@ -21,6 +21,7 @@ namespace TestAPP
         {
             MessageBox.Show("initCom");
             label2.Text = "initComEDITED WITH AMEND 1 2";
+            label3.Text = "changes from master";
         }
     }
 }
