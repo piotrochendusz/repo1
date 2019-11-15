@@ -15,13 +15,14 @@ namespace TestAPP
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "dev change";
-            label2.Text = "master  changes";
+            label1.Text = "dev3 change";
+            label2.Text = "master dev3 changes";
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("initCom");
+            label1.Text = "dev3 change";
             label2.Text = "initComEDITED WITH AMEND 1 2";
             label3.Text = "changes from master"; //test
             label1.Text = "master changes";
