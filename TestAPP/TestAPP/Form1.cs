@@ -26,6 +26,7 @@ namespace TestAPP
             label2.Text = "initComEDITED WITH AMEND 1 2";
             label3.Text = "changes from master"; //test
             label1.Text = "master changes";
+            //dev5 test
         }
 
         private void Button3_Click(object sender, EventArgs e)
