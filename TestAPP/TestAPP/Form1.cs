@@ -20,7 +20,7 @@ namespace TestAPP
         private void Button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("initCom");
-            label2.Text = "initComEDITED WITH AMEND";
+            label2.Text = "initComEDITED WITH AMEND 1";
         }
     }
 }
