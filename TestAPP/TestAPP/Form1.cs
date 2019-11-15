@@ -22,6 +22,7 @@ namespace TestAPP
         {
             MessageBox.Show("initCom");
             label2.Text = "initComEDITED WITH AMEND 1 2";
+            //test 
         }
     }
 }
