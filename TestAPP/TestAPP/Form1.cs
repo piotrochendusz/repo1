@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 //test1
+//zmiany na branch bartka
 //update test
 //update test 2
-
 namespace TestAPP
 {
 
